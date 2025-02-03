@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.receita-completa {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 600px;
+    min-height: 1300px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.foto-omellet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-omellet img {
+    border-radius: 15px;
+}
+
+.img {
+    width: 540px;
+    height: 250px;
+}
+
+/* TEMPO DA RECEITA */
+
+.titulo {
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.descricao-receita {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.preparacao-receita {
+    min-height: 170px;
+    height: 160px;
+    margin-top: 22px;
+    background-color: #fff5fa;
+    border-radius: 15px;
+}
+
+.tempo {
+    padding: 20px;
+    color: #7b284f;
+}
+
+.lista-tempo li {
+    margin-left: 50px;
+
+    line-height: 30px;
+}
+
+/* INGREDIENTES */
+
+.ingredientes {
+    margin-top: 20px;
+}
+
+.titulo-2 {
+    color: #854632;
+}
+
+.lista-receita {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.lista-receita li::marker {
+    color: #854632;
+}
+
+.lista-receita li {
+    padding-left: 15px;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.linha-1 {
+    margin-top: 25px;
+}
+
+/* iNSTRUCAO DA RECEITA */
+
+.instrucao {
+    margin-top: 20px;
+}
+
+.titulo-3 {
+    color: #854632;
+}
+
+.lista-instrucao {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.lista-instrucao li::marker {
+    color: #854632;
+    font-weight: 700;
+}
+
+.lista-instrucao li {
+    padding-left: 15px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* TABELA NUTRICIONAL */
+
+.nutricao {
+    margin-top: 30px;
+}
+
+.titulo-4 {
+    color: #854632;
+}
+
+.tabela-p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.tabela-nutricional {
+    margin-top: 15px;
+}
+
+.tabela-nutricional li{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+   padding-left: 30px;
+   padding-right: 200px;
+   
+}
+
+.linha-2{
+    margin-top: 10px;
+    opacity: 0.3;
+}
