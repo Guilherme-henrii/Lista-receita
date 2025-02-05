@@ -1,0 +1,154 @@
+@media(max-width: 600px) {
+    .container {
+        margin-top: 0;
+    }
+
+    .receita-completa {
+        border-radius: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+        padding: 0;
+    }
+
+    .foto-omellet {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto-omellet img {
+        border-radius: 0px;
+    }
+
+
+    .img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .info-receita {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .titulo {
+        margin-left: 30px;
+
+    }
+
+    .descricao-receita {
+        width: 78%;
+        font-size: 17px;
+        text-align: justify;
+        margin-left: 30px;
+    }
+
+    .preparacao-receita {
+        margin: 30px;
+        min-height: 180px;
+        height: 0px;
+        width: 300px;
+        margin-top: 22px;
+        background-color: #fff5fa;
+        border-radius: 15px;
+    }
+
+    .tempo {
+        padding: 20px;
+    }
+
+    .lista-tempo li {
+        margin-left: 20px;
+        line-height: 30px;
+    }
+
+    .lista-tempo li{
+        padding-left: 10px;
+        margin-left: 40px;
+     }
+
+
+
+
+
+     .ingredientes {
+        margin-left: 30px;
+    }
+    
+    .lista-receita li {
+        width: 260px;
+    }
+    
+    .linha-1 {
+        opacity: 0.5;
+        width: 90%;
+    }
+
+
+
+
+
+
+
+    .instrucao {
+        margin-left: 30px;
+    }
+    
+    .lista-instrucao {
+        padding-left: 20px;
+    }
+    
+    .lista-instrucao li {
+        width: 250px;
+        padding-left: 15px;
+        margin: 10px;
+        line-height: 20px;
+        font-size: 16px;
+        
+    }
+
+
+
+
+
+
+
+
+    .nutricao {
+        margin-left: 30px;
+    }
+    
+    .tabela-p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .tabela-nutricional {
+        margin-top: 15px;
+    }
+    
+    .tabela-nutricional li{
+      
+       justify-content: space-between;
+       align-items: center;
+       margin-top: 20px;
+       padding-left: 35px;
+       padding-right: 100px;
+       margin-bottom: 25px;
+    }
+    
+    .linha-2{
+        margin-top: 15px;
+        opacity: 0.5;
+        width: 90%;
+    }
+
+    .sub-conteudo{
+        color: #854632;
+        font-weight: bold;
+    }
+
+
+
+}
